@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Finaly........!!</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="yesButton" onclick="nextPage()">
+        Let's Fix a Date through WhatsApp
+    </button>
+    
+    <script>
+        function nextPage() {
+            // Add logic to redirect to WhatsApp
+            window.location.href = 'https://api.whatsapp.com/send?phone=9162788251'; // Replace with the actual WhatsApp link
+    
+            // Alternatively, you can use the following to open WhatsApp in the app if available
+            // window.location.href = 'whatsapp://send?phone=1234567890';
+        }
+    </script>
+    
+    </div>
+  </body>
+</html>
